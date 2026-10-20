@@ -62,3 +62,5 @@ Linux_troubleshoot_Learn/
 ## Git 协作同步练习
 
 - GitHub 远程修改：练习使用 fetch 和 pull 同步到本地。
+
+- 本地修改：同步远程提交后继续编辑、提交并推送。
