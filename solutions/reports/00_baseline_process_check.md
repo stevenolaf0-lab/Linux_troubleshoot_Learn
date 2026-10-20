@@ -97,14 +97,14 @@ nonvoluntary_ctxt_switches:     0
 
 ```text
 在这里填写 readlink -f /proc/PID/exe 的真实输出
-./build/x86-debug/baseline_pipeline --duration 1000
+/home/wl/workspace/Linux_troubleshoot_Learn/build/x86-debug/baseline_pipeline
 ```
 
 ### 5.4 完整启动参数
 
 ```text
 在这里填写 /proc/PID/cmdline 的真实输出
-/home/wl/workspace/Linux_troubleshoot_Learn/build/x86-debug/baseline_pipeline
+./build/x86-debug/baseline_pipeline --duration 1000
 ```
 
 如果没有保存，应明确写：
