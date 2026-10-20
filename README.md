@@ -58,3 +58,7 @@ Linux_troubleshoot_Learn/
 ├── docs/          # 分章节教学文档
 ├── checklists/    # 现场快速排查清单
 └── build/         # 本地构建目录，不提交到 Git
+
+## Git 协作同步练习
+
+- GitHub 远程修改：练习使用 fetch 和 pull 同步到本地。
