@@ -1,0 +1,24 @@
+{
+  "version": 3,
+  "configurePresets": [
+    {
+      "name": "x86-debug",
+      "displayName": "x86-64 Debug",
+      "description": "Build x86-64 Linux programs with debug information and without optimization",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build/x86-debug",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "x86-debug",
+      "displayName": "Build x86-64 Debug",
+      "description": "Compile the targets configured by the x86-debug configure preset",
+      "configurePreset": "x86-debug"
+    }
+  ]
+}
